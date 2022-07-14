@@ -1,7 +1,7 @@
 /**
- * @module rewrite
+ * @module rewrite 123
  * @description 重写页面框架模块，重写操作会完全刷新DOM，必须越快越好
- * @license MIT
+ * @license MIT 
  */
 (function () {
     const BLOD = window.BLOD; // 模块上下文，由主模块定义
