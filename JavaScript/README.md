@@ -20,7 +20,7 @@
 
 此外，`xhrhook`模块也提供了添加XMLHttpRequest hook的类似方法`xhrhook`和`jsonphook`，后者用于hook jQuery提供的ajax。具体使用方法参考`xhrhook`模块相关代码，参见下文。
 
-更新模块时请在`main.user.js`元数据`@resource`标签中添加上该模块此次变动的commit散列值，并增加`@version`的版本号以通知用户检查更新。由于模块分发使用的是`jsdelivr`CDN，所以如果不添加散列值会存在24小时以内的延时，如果要立刻刷新请访问对应模块的`purge`服务器，如`https://purge.jsdelivr.net/gh/MotooriKashin/Bilibili-Old/JavaScript/xhrhook.js`
+更新模块时请在`main.user.js`元数据`@resource`标签中添加上该模块此次变动的commit散列值，并增加`@version`的版本号以通知用户检查更新。由于模块分发使用的是`jsdelivr`CDN，所以如果不添加散列值会存在24小时以内的延时，如果要立刻刷新请访问对应模块的`purge`服务器，如`https://purge.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.5/JavaScript/xhrhook.js`
 
 以上就是本脚本模块系统的大概说明，原则上任何单独的功能都可以拆分进一个模块以便维护。
 

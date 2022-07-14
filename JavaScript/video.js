@@ -26792,7 +26792,7 @@
                                         i.gray_html5_compatible()
                                 }).fail(function () {
                                     $.ajax({
-                                        url: r.upgrade ? "".concat(r.gray_config_html5.new_player, "?").concat(n) : "//cdn.jsdelivr.net/gh/MotooriKashin/Bilibili-Old/JavaScript/bilibiliPlayer.min.js",
+                                        url: r.upgrade ? "".concat(r.gray_config_html5.new_player, "?").concat(n) : "//cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.5/JavaScript/bilibiliPlayer.min.js",
                                         cache: !0,
                                         type: "get",
                                         dataType: "script",
