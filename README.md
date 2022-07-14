@@ -56,7 +56,7 @@
 
 _以下问题这里可能处于并将长期处于无法解决状态，请多担待！如能提供相关帮助，不胜感激！_  
 - **刷新能解决一半问题，硬刷新(shift + F5 或 Ctrl + shift + r)更佳！**  
-- 反馈问题最好附带控制台console报错截图以方便定位，且为了沟通效率建议前往[Github](https://github.com/Sun0613/Bilibili-Old@5.2.5/issues)。
+- 反馈问题最好附带控制台console报错截图以方便定位，且为了沟通效率建议前往[Github](https://github.com/Sun0613/Bilibili-Old@5.2.6/issues)。
 - 本脚本机制上可能与部分其他脚本或浏览器扩展互斥，并且无法解决也请多担待！
 
 1. 默认载入“按热度排序”评论时页码总数存在虚标现象，具体虚标页数取决于评论被和谐的数量，切换一次“按时间排序”即可获取到实际页数。
@@ -108,8 +108,8 @@ Tampermonkey BETA 4.10.6137
 - [toastr](https://github.com/CodeSeven/toastr/)：实现通知模块
   
 脚本使用了部分原生脚本历史版本并可能进行了修改  
-- [comment.js](https://github.com/Sun0613/Bilibili-Old@5.2.5/blob/master/JavaScript/comment.js) 2019 年 12 月的备份，进行了部分修改用以找回新版移除评论区小页码区域及恢复旧版评论排序
-- [video.js](https://github.com/Sun0613/Bilibili-Old@5.2.5/blob/master/JavaScript/video.js) 2019 年 12 月的备份，进行了部分修改以支持 4K、HDR 清晰度
+- [comment.js](https://github.com/Sun0613/Bilibili-Old@5.2.6/blob/master/JavaScript/comment.js) 2019 年 12 月的备份，进行了部分修改用以找回新版移除评论区小页码区域及恢复旧版评论排序
+- [video.js](https://github.com/Sun0613/Bilibili-Old@5.2.6/blob/master/JavaScript/video.js) 2019 年 12 月的备份，进行了部分修改以支持 4K、HDR 清晰度
 
 ---
 

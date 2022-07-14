@@ -4,8 +4,8 @@
 // @version      5.2.6
 // @description  恢复Bilibili旧版页面，为了那些念旧的人。
 // @author       Sun0613
-// @homepage     https://github.com/Sun0613/Bilibili-Old@5.2.5/
-// @supportURL   https://github.com/Sun0613/Bilibili-Old@5.2.5/issues
+// @homepage     https://github.com/Sun0613/Bilibili-Old@5.2.6/
+// @supportURL   https://github.com/Sun0613/Bilibili-Old@5.2.6/issues
 // @icon         https://static.hdslb.com/images/favicon.ico
 // @match        *://*.bilibili.com/*
 // @connect      *
@@ -21,37 +21,37 @@
 // @resource     base64 https://cdn.jsdelivr.net/npm/js-base64@3.6.0/base64.min.js
 // @resource     toast https://cdn.bootcdn.net/ajax/libs/toastr.js/latest/toastr.min.css
 // @resource     protojs https://cdn.jsdelivr.net/npm/protobufjs@6.10.1/dist/protobuf.min.js
-// @resource     iconLike https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.5/image/iconLike
-// @resource     iconDislike https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.5/image/iconDislike
-// @resource     news https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.5/image/news
-// @resource     css https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.5/CSS/ui.css
-// @resource     commandDmStyle https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.5/CSS/commandDmStyle.css
-// @resource     av https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.5/HTML/av.html
-// @resource     bangumi https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.5/HTML/bangumi.html
-// @resource     watchlater https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.5/HTML/watchlater.html
-// @resource     cinema https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.5/HTML/cinema.html
-// @resource     index https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.5/HTML/index.html
-// @resource     playlist https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.5/HTML/playlist.html
-// @resource     playlistdetail https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.5/HTML/playlistdetail.html
-// @resource     player https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.5/HTML/player.html
-// @resource     ranking https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.5/HTML/ranking.html
-// @resource     read https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.5/HTML/read.html
-// @resource     config https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.5/Json/config.json
-// @resource     sort https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.5/Json/sort.json
-// @resource     protobuf https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.5/Json/protobuf.json
-// @resource     playlistjson https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.5/Json/playlist.json
-// @resource     units https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.5/JavaScript/units.js
-// @resource     reset https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.5/JavaScript/reset.js
-// @resource     rewrite https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.5/JavaScript/rewrite.js
-// @resource     initialstate https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.5/JavaScript/initialstate.js
-// @resource     commandDm https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.5/JavaScript/commandDm.js
-// @resource     reply https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.5/JavaScript/comment.js
-// @resource     ui https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.5/JavaScript/ui.js
-// @resource     xhrhook https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.5/JavaScript/xhrhook.js
-// @resource     closedCaption https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.5/JavaScript/closedCaption.js
-// @resource     crc https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.5/JavaScript/crc.js
-// @resource     md5 https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.5/JavaScript/md5.js
-// @resource     download https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.5/JavaScript/download.js
+// @resource     iconLike https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.6/image/iconLike
+// @resource     iconDislike https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.6/image/iconDislike
+// @resource     news https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.6/image/news
+// @resource     css https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.6/CSS/ui.css
+// @resource     commandDmStyle https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.6/CSS/commandDmStyle.css
+// @resource     av https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.6/HTML/av.html
+// @resource     bangumi https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.6/HTML/bangumi.html
+// @resource     watchlater https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.6/HTML/watchlater.html
+// @resource     cinema https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.6/HTML/cinema.html
+// @resource     index https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.6/HTML/index.html
+// @resource     playlist https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.6/HTML/playlist.html
+// @resource     playlistdetail https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.6/HTML/playlistdetail.html
+// @resource     player https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.6/HTML/player.html
+// @resource     ranking https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.6/HTML/ranking.html
+// @resource     read https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.6/HTML/read.html
+// @resource     config https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.6/Json/config.json
+// @resource     sort https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.6/Json/sort.json
+// @resource     protobuf https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.6/Json/protobuf.json
+// @resource     playlistjson https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.6/Json/playlist.json
+// @resource     units https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.6/JavaScript/units.js
+// @resource     reset https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.6/JavaScript/reset.js
+// @resource     rewrite https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.6/JavaScript/rewrite.js
+// @resource     initialstate https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.6/JavaScript/initialstate.js
+// @resource     commandDm https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.6/JavaScript/commandDm.js
+// @resource     reply https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.6/JavaScript/comment.js
+// @resource     ui https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.6/JavaScript/ui.js
+// @resource     xhrhook https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.6/JavaScript/xhrhook.js
+// @resource     closedCaption https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.6/JavaScript/closedCaption.js
+// @resource     crc https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.6/JavaScript/crc.js
+// @resource     md5 https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.6/JavaScript/md5.js
+// @resource     download https://cdn.jsdelivr.net/gh/Sun0613/Bilibili-Old@5.2.6/JavaScript/download.js
 // ==/UserScript==
 
 (function () {
