@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bilibili 旧播放页
 // @namespace    Sun0613
-// @version      5.2.5
+// @version      5.2.6
 // @description  恢复Bilibili旧版页面，为了那些念旧的人。
 // @author       Sun0613
 // @homepage     https://github.com/Sun0613/Bilibili-Old@5.2.5/
